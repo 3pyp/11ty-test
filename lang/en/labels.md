@@ -1,12 +1,9 @@
 ---
-key: en
-name: Name
-country: Country
-description: Description
-title: Sample 11ty - Animals
-tags: en
-permalink: "en/index.html" 
-layout: main.njk
+title: Markdown-It Tests
+metadesc: Markdown tests for app
+layout: blog
+published: December 1, 2019
+imageUrl: /images/image.png
 ---
 
 # Headline 1
