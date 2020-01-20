@@ -3,7 +3,7 @@ title: Markdown-It Tests
 metadesc: Markdown tests for app
 layout: Blog
 published: 1 de diciembre de 2019
-imageUrl: /images/image.png
+imageUrl: https://dummyimage.com/600x400/807c80/ffffff
 ---
 
 # Título 1
