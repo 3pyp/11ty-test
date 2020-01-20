@@ -1,0 +1,32 @@
+---
+title: Sample 11ty - Animals
+---
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/main.css">
+ </head>
+ <body>
+ 	<h1>{{ title }}</h1>
+  <div class="container">
+    {%- for animal in animals -%}
+      <div class="animal">
+        <div class="animal__text">
+          <strong class="label">Name:</strong>
+          {{ animal.name }}
+        </div>
+        <div class="animal__text">
+          <strong class="label">Country:</strong>
+          {{ animal.country }}
+        </div>
+        <div class="animal__text">
+          <strong class="label">Description:</strong>
+          {{ animal.description }}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+ </body>
+</html>
